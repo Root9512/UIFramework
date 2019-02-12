@@ -12,6 +12,8 @@ DATA_PATH = os.path.join(BASE_PATH, 'data')
 DRIVER_PATH = os.path.join(BASE_PATH, 'drivers')
 LOG_PATH = os.path.join(BASE_PATH, 'log')
 REPORT_PATH = os.path.join(BASE_PATH, 'report')
+CASE_PATH = os.path.join(BASE_PATH, 'test', 'case')
+
 
 
 class Config:

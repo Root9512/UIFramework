@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/UIAutoTest.iml" filepath="$PROJECT_DIR$/.idea/UIAutoTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python-selenium-master/.idea/python-selenium-master.iml" filepath="$PROJECT_DIR$/../python-selenium-master/.idea/python-selenium-master.iml" />
     </modules>
   </component>
 </project>
