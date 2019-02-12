@@ -1,3 +1,10 @@
 URL: http://www.baidu.com
 DESCRIPTION: '测试结果'
 REPORTTITLE: '自动化测试报告'
+
+TITLE: '百度搜索测试报告'
+MESSAGE: '这是今天的测试报告，请查收！'
+RECEIVER: '18151032084@163.com'
+SERVER: 'smtp.163.com'
+SENDER: '18151032084@163.com'
+PASSWORD: 'xmxel9516.'

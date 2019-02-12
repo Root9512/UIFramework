@@ -66,6 +66,14 @@ class ExcelReader:
                 title = s.row_values(0)  # 首行为title
                 for col in range(1, s.nrows):
                     # 依次遍历其余行，与首行组成dict，拼到self._data中
+                    # 以下实例展示了zip的使用方法：
+                    # >> > a = [1, 2, 3]
+                    # >> > b = [4, 5, 6]
+                    # >> > c = [4, 5, 6, 7, 8]
+                    # >> > zipped = zip(a, b)  # 打包为元组的列表
+                    # [(1, 4), (2, 5), (3, 6)]
+                    # >> > zip(a, c)  # 元素个数与最短的列表一致
+                    # [(1, 4), (2, 5), (3, 6)]
                     self._data.append(dict(zip(title, s.row_values(col))))
             else:
                 for col in range(0, s.nrows):
